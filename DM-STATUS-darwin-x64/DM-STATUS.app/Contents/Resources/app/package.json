@@ -1,0 +1,32 @@
+{
+  "name": "digitalmarketplace-status",
+  "version": "1.0.0",
+  "description": "localhost status checks",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "menubar": "^5.2.3",
+    "nit": "^0.0.5",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DilwoarH/digitalmarketplace-status.git"
+  },
+  "keywords": [
+    "status",
+    "digital",
+    "market",
+    "place"
+  ],
+  "author": "Dilwoar Hussain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DilwoarH/digitalmarketplace-status/issues"
+  },
+  "homepage": "https://github.com/DilwoarH/digitalmarketplace-status#readme"
+}

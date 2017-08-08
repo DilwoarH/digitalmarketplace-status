@@ -1,0 +1,74 @@
+<link rel="stylesheet" href="public/css/bootstrap.min.css">
+<link rel="stylesheet" href="public/css/status.css">
+
+<div class="main-content">
+
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    Digital Market Local Status
+                </a>  
+                <button type="button" class="btn btn-default navbar-btn" onClick="window.location.reload()">Refresh</button>
+            </div>
+        </div>
+    </nav>
+  
+    <h4>
+        <strong>Status:</strong>
+
+        <span id="error-msg">
+            <div class="led-box">
+                <div class="led-yellow"></div>
+            </div>
+        </span>
+    </h4>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Status</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>API Status</td>
+                <td id="api-status">
+                    <div class="led-box">
+                        <div class="led-yellow"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Search API Status</td>
+                <td id="search-api-status">
+                    <div class="led-box">
+                        <div class="led-yellow"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Front End Status</td>
+                <td id="front-end-status">
+                    <div class="led-box">
+                        <div class="led-yellow"></div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
+
+<!-- Insert this line above script imports  -->
+<script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+
+<script src="public/js/jquery.min.js"></script>
+<script src="public/js/status.js"></script>
+<script src="public/js/index.js"></script>
+
+<!-- Insert this line after script imports -->
+<script>if (window.module) module = window.module;</script>
+
